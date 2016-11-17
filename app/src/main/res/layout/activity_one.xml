@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sah.lesson_3.ActivityOne">
+
+    <TextView
+        style="@style/TextStyle"
+        android:text="@string/text_view_one" />
+
+    <TextView
+        style="@style/TextStyle.GreenText"
+        android:text="@string/text_view_two" />
+
+    <TextView
+        style="@style/TextStyle.GreenText.Big"
+        android:text="@string/text_view_three" />
+
+
+
+</LinearLayout>

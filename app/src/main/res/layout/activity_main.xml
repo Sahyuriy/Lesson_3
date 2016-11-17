@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sah.lesson_3.MainActivity">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="@dimen/imgSize"
+        android:layout_height="@dimen/imgSize"
+        android:scaleType="fitXY"
+        android:src="@drawable/andr"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="@dimen/imgSize"
+        android:layout_height="@dimen/imgSize"
+        android:scaleType="centerCrop"
+        android:src="@drawable/andr1"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="@dimen/imgSize"
+        android:layout_height="@dimen/imgSize"
+        android:src="@drawable/andr2"/>
+</LinearLayout>

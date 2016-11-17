@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sah.lesson_3.MainActivity">
+    <item
+        android:id="@+id/ActivityA"
+        android:orderInCategory="100"
+        android:title="@string/activity_one"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ActivityB"
+        android:orderInCategory="100"
+        android:title="@string/activity_two"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ActivityC"
+        android:orderInCategory="100"
+        android:title="@string/activity_three"
+        app:showAsAction="never" />
+</menu>
