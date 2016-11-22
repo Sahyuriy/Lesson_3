@@ -1,5 +1,6 @@
 package com.example.sah.lesson_3;
 
+import android.app.Application;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.ActivityC:
                 methodThree();
                 return true;
+            case R.id.Exit:
+                finishAffinity();
+
             default:
                 return super.onOptionsItemSelected(item);
         }
